@@ -3093,13 +3093,13 @@ int CareGenerator(bool Caring){
 
 int DiaperGenerator(bool Traps){
 	const int LOW = 1;
-	int HIGH = 20;
+	int HIGH = 22;
 	int die = 1;
 	time_t seconds;
 	
 	if(Traps)
 	{
-		HIGH = 31;
+		HIGH = 33;
 	}
 	
 	time(&seconds);
